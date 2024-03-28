@@ -12,13 +12,16 @@ Note: remote origin is added by default after clone
 
 
 ## Optional - manually add remote repo 
-`git init` Creates .git  
+`git init -b main`  
+Creates .git, create new branch, and checkout to it  
 `git remote add <origin> <REMOTE_URL>`  
 `git remote -v`  
-`git fetch <remote repo name>`  *Download objects and refs from another repository*
+`git fetch <remote repo name>`  
+Download objects and refs from another repository  
 
 or
-`git pull` (note: if already tracking remote) *Fetch from and integrate with another repository or a local branch*    
+`git pull`  
+when already tracking remote - *Fetch from and integrate with another repository or a local branch*    
 
 https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes  
 
